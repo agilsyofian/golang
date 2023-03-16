@@ -1,4 +1,4 @@
-module github.com/agilsyofian/golang/paseto
+module github.com/agilsyofian/golang
 
 go 1.20
 
