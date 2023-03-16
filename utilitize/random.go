@@ -1,4 +1,4 @@
-package utilitize
+package util
 
 import (
 	"fmt"
