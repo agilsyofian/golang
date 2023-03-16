@@ -1,4 +1,4 @@
-package paseto
+package token_paseto
 
 import (
 	"time"
