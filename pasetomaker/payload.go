@@ -1,4 +1,4 @@
-package paseto
+package pasetomaker
 
 import (
 	"errors"

@@ -1,16 +1,16 @@
-package paseto
+package pasetomaker
 
 import (
 	"fmt"
 	"time"
 
 	"github.com/aead/chacha20poly1305"
-	pst "github.com/o1egl/paseto"
+	"github.com/o1egl/paseto"
 )
 
 // PasetoMaker is a PASETO token maker
 type PasetoMaker struct {
-	paseto       *pst.V2
+	paseto       *paseto.V2
 	symmetricKey []byte
 }
 
@@ -21,7 +21,7 @@ func NewPasetoMaker(symmetricKey string) (Maker, error) {
 	}
 
 	maker := &PasetoMaker{
-		paseto:       pst.NewV2(),
+		paseto:       paseto.NewV2(),
 		symmetricKey: []byte(symmetricKey),
 	}
 
