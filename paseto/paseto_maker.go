@@ -1,4 +1,4 @@
-package token_paseto
+package token
 
 import (
 	"fmt"
